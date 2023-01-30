@@ -49,6 +49,9 @@
 		FD92F10C296B2F7D00DD6C67 /* PracticasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD92F110296B2F7D00DD6C67 /* PracticasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticasUITests.swift; sourceTree = "<group>"; };
 		FD92F112296B2F7D00DD6C67 /* PracticasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FDEC4A3029882558009907FC /* Practica1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Practica1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FDEC4A3129882E1E009907FC /* CaracteresYCadenas.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CaracteresYCadenas.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FDEC4A322988374C009907FC /* Colecciones.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Colecciones.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 		FD92F0EE296B2F7A00DD6C67 /* Practicas */ = {
 			isa = PBXGroup;
 			children = (
+				FDEC4A2E29881FB3009907FC /* practicas */,
 				FD92F0EF296B2F7A00DD6C67 /* AppDelegate.swift */,
 				FD92F0F1296B2F7A00DD6C67 /* SceneDelegate.swift */,
 				FD92F0F3296B2F7A00DD6C67 /* ViewController.swift */,
@@ -125,6 +129,16 @@
 				FD92F112296B2F7D00DD6C67 /* PracticasUITestsLaunchTests.swift */,
 			);
 			path = PracticasUITests;
+			sourceTree = "<group>";
+		};
+		FDEC4A2E29881FB3009907FC /* practicas */ = {
+			isa = PBXGroup;
+			children = (
+				FDEC4A3029882558009907FC /* Practica1.playground */,
+				FDEC4A3129882E1E009907FC /* CaracteresYCadenas.playground */,
+				FDEC4A322988374C009907FC /* Colecciones.playground */,
+			);
+			path = practicas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
