@@ -36,6 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD65162229927CC400E6BF68 /* Bucles.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Bucles.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FD6516232993CCFC00E6BF68 /* Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Functions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FD651624299AAB7E00E6BF68 /* Optionals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Optionals.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FD651625299AB10600E6BF68 /* ManejoErrores.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ManejoErrores.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FD651626299AB96E00E6BF68 /* TypeCasting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TypeCasting.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FD651627299AC81400E6BF68 /* TiposAnidados.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TiposAnidados.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FD6D86E6299132D90087CE2C /* RangeOperator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RangeOperator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FD6D86E7299135D00087CE2C /* Condicionales.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Condicionales.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FD92F0EC296B2F7A00DD6C67 /* Practicas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practicas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD92F0EF296B2F7A00DD6C67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD92F0F1296B2F7A00DD6C67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +145,14 @@
 				FDEC4A3029882558009907FC /* Practica1.playground */,
 				FDEC4A3129882E1E009907FC /* CaracteresYCadenas.playground */,
 				FDEC4A322988374C009907FC /* Colecciones.playground */,
+				FD6D86E6299132D90087CE2C /* RangeOperator.playground */,
+				FD6D86E7299135D00087CE2C /* Condicionales.playground */,
+				FD65162229927CC400E6BF68 /* Bucles.playground */,
+				FD6516232993CCFC00E6BF68 /* Functions.playground */,
+				FD651624299AAB7E00E6BF68 /* Optionals.playground */,
+				FD651625299AB10600E6BF68 /* ManejoErrores.playground */,
+				FD651626299AB96E00E6BF68 /* TypeCasting.playground */,
+				FD651627299AC81400E6BF68 /* TiposAnidados.playground */,
 			);
 			path = practicas;
 			sourceTree = "<group>";
