@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PracticaControles" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQh-Hk-SSL">
+                                <rect key="frame" x="20" y="99" width="353" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="myButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="73a-n0-yrO"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d5Q-CB-AeC">
+                                <rect key="frame" x="0.0" y="164" width="393" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="aG8-lz-nNJ"/>
+                                </constraints>
+                            </pickerView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="hf5-y8-Oin">
+                                <rect key="frame" x="20" y="284" width="353" height="26"/>
+                                <connections>
+                                    <action selector="myPageControlAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="Umo-zJ-FYG"/>
+                                </connections>
+                            </pageControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="1gL-mx-kEa">
+                                <rect key="frame" x="20" y="330" width="353" height="32"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                                <connections>
+                                    <action selector="mySegmentControlAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="arm-zu-I6m"/>
+                                </connections>
+                            </segmentedControl>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="etz-5S-6b0">
+                                <rect key="frame" x="18" y="381" width="357" height="31"/>
+                                <connections>
+                                    <action selector="mySliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="xmE-se-fq9"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hf5-y8-Oin" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="2Zq-mV-A0o"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hf5-y8-Oin" secondAttribute="trailing" constant="20" id="4Ef-8b-pfe"/>
+                            <constraint firstItem="d5Q-CB-AeC" firstAttribute="top" secondItem="gQh-Hk-SSL" secondAttribute="bottom" constant="30" id="52a-eV-pPT"/>
+                            <constraint firstItem="gQh-Hk-SSL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="BFJ-tg-RRW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gQh-Hk-SSL" secondAttribute="trailing" constant="20" id="C0Q-9c-Vnq"/>
+                            <constraint firstItem="etz-5S-6b0" firstAttribute="top" secondItem="1gL-mx-kEa" secondAttribute="bottom" constant="20" id="CmH-Sx-5zY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="etz-5S-6b0" secondAttribute="trailing" constant="20" id="L53-eV-25y"/>
+                            <constraint firstItem="d5Q-CB-AeC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Ud0-gB-ysi"/>
+                            <constraint firstItem="hf5-y8-Oin" firstAttribute="top" secondItem="d5Q-CB-AeC" secondAttribute="bottom" constant="20" id="UeA-uy-lJK"/>
+                            <constraint firstItem="1gL-mx-kEa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="a17-O3-OPt"/>
+                            <constraint firstItem="gQh-Hk-SSL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="g3v-kh-Eww"/>
+                            <constraint firstItem="etz-5S-6b0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jC0-8X-zNX"/>
+                            <constraint firstItem="1gL-mx-kEa" firstAttribute="top" secondItem="hf5-y8-Oin" secondAttribute="bottom" constant="20" id="lnR-MH-3ah"/>
+                            <constraint firstItem="d5Q-CB-AeC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xc9-fL-hkl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1gL-mx-kEa" secondAttribute="trailing" constant="20" id="zOi-ME-XSy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myButton" destination="gQh-Hk-SSL" id="XNF-4U-V8M"/>
+                        <outlet property="myPageControl" destination="hf5-y8-Oin" id="u6b-04-0QF"/>
+                        <outlet property="myPicker" destination="d5Q-CB-AeC" id="FWE-ag-vi4"/>
+                        <outlet property="mySegmenteControl" destination="1gL-mx-kEa" id="JSK-MM-7AK"/>
+                        <outlet property="mySlider" destination="etz-5S-6b0" id="X3K-U8-qLM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="12" y="-34"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
